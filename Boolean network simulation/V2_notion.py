@@ -160,6 +160,7 @@ class BooleanNetworkSimulation:
         # 각 attractor에 대한 basin 크기 초기화
         for attractor_type, attractor in self.attractors:
             attractor_key = f"{attractor_type}:{'->'.join(attractor)}"
+            print(attractor_key)
             self.basin_sizes[attractor_key] = 0
         
         # 모든 노드에 대해 어떤 attractor에 도달할 수 있는지 확인
