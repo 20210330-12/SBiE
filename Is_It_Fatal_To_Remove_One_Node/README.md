@@ -14,9 +14,6 @@ https://doi.org/10.1158/0008-5472.CAN-22-1559
 
 ## Implementation
 
-+ Import networks in BoolNet format (from the `network` directory)  
-+ A simple toy network example is provided.  
-
 + 1.(...).ipynb : 기존 논문을 재현하는 데 사용할 수 있는 코드입니다. Single Node Perturbation을 수행할 수 있습니다.  
 + 2.(...).ipynb : 노드 하나를 없애고, 해당 노드의 로직만 보존했을 때 Attractor Landscape가 어떻게 되는지에 대한 실험 코드입니다. 기존 Original Network와 Attractor가 동일한지 자동으로 비교해줍니다. 
 
