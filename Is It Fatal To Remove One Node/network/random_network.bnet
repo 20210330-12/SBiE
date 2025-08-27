@@ -1,0 +1,31 @@
+Node1, (!Node14 | Node19 | (!Node31 | Node15))
+Node2, (Node3 | Node19 | !Node25 | Node30)
+Node3, (((Node31 & !Node11) | Node22 | Node19) & Node27)
+Node4, (Node20 & (!Node26 & !Node25))
+Node5, (Node2 | Node3 | Node19 | Node26 | !Node27 | Node31)
+Node6, (Node19 & Node22 & Node27)
+Node7, Node22
+Node8, ((Node27 & Node6) | Node3 | Node1)
+Node9, (Node21 & Node1)
+Node10, (Node31 & Node19)
+Node11, (!Node16 & Node3)
+Node12, (((!Node29 | Node5 | !Node3) | Node27 | Node19) & Node31)
+Node13, (Node14 & !Node9)
+Node14, (!Node23 | (Node29 | Node27))
+Node15, (!Node7 | Node17 | Node31)
+Node16, (Node3 | Node17 | !Node22)
+Node17, Node7
+Node18, (Node22 & Node14)
+Node19, (!Node22 | Node18 | Node3)
+Node20, (((((!Node22 | Node19) & Node2) & Node27 & Node6) & Node13) & !Node29)
+Node21, Node22
+Node22, Node23
+Node23, Node23
+Node24, (Node1 | Node20 | !Node27 | Node31)
+Node25, ((Node31 & Node20) & Node3)
+Node26, ((Node28 | Node27 | !Node20) & Node3)
+Node27, (Node17 & !Node8 & Node3)
+Node28, ((Node31 | Node26 | Node23) & Node20)
+Node29, ((Node31 & Node22 & Node20) & (Node26 & Node3))
+Node30, (Node21 & Node17)
+Node31, Node10
